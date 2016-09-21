@@ -1,0 +1,17 @@
+---
+ansible_ssh_host: 192.168.222.99
+ansible_ssh_user: vagrant
+ansible_ssh_private_key_file: ~/.vagrant.d/insecure_private_key
+
+# These are the WordPress database settings
+wp_db_name: juwai
+wp_db_user: juwai
+wp_db_password: password
+wp_db_host: 192.168.222.9
+
+# You shouldn't need to change this.
+mysql_port: 3306
+
+# This is used for the nginx server configuration, but access to the
+# WordPress site is not restricted by a named host.
+server_hostname: www.example.com
